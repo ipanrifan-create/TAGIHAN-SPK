@@ -1,4 +1,4 @@
-PyGithub
-selenium
 requests
+selenium
 openpyxl
+PyGithub
