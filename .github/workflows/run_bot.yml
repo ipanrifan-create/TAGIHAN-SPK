@@ -2,8 +2,11 @@ name: Bot Auto Run SPK
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Otomatis jalan setiap jam 12 malam
-  workflow_dispatch:     # Tombol untuk menjalankan manual kapan saja
+    - cron: '0 6 * * *'  # Jalankan setiap hari jam 06:00 UTC (13:00 WIB)
+  workflow_dispatch:      # Bisa dijalankan manual dari tab Actions
+
+permissions:
+  contents: write         # Wajib agar GITHUB_TOKEN bisa push/update file ke repo
 
 jobs:
   build:
@@ -16,16 +19,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Install ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
 
       - name: Install Dependencies
-        run: |
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run Bot SCM
+      - name: Run Bot
         env:
-          # Mengambil data dari Settings > Secrets yang Anda buat
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EMAIL_SCM: ${{ secrets.EMAIL_SCM }}
           PASS_SCM: ${{ secrets.PASS_SCM }}
-        run: python main.py
+        run: python bot-scm.py
