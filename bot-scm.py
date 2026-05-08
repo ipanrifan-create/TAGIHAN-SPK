@@ -9,7 +9,6 @@ from datetime import datetime
 
 from github import Github, GithubException
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -17,9 +16,6 @@ from selenium.webdriver.chrome.options import Options
 from openpyxl import load_workbook
 
 def upload_to_github(data, filename="data_tagihan_spk.json"):
-    """
-    Upload data JSON ke repository GitHub: ipanrifan-create/TAGIHAN-SPK
-    """
     token = os.environ.get('GITHUB_TOKEN')
     if not token:
         print("[ERROR] GITHUB_TOKEN tidak ditemukan!")
@@ -31,7 +27,6 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
         file_content = json.dumps(data, indent=4, ensure_ascii=False)
 
         try:
-            # Coba ambil file yang sudah ada
             contents = repo.get_contents(filename)
             repo.update_file(
                 path=contents.path,
@@ -42,7 +37,6 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
             print(f"[OK] File {filename} berhasil diperbarui di GitHub.")
         except GithubException as e:
             if e.status == 404:
-                # Jika file belum ada (404 Not Found), buat file baru
                 repo.create_file(
                     path=filename,
                     message="Initial commit data SPK",
@@ -50,34 +44,25 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
                 )
                 print(f"[OK] File {filename} berhasil dibuat di GitHub.")
             else:
-                # Jika error selain 404 (misal: 403 Forbidden), tampilkan pesan error
                 print(f"[ERROR] GitHub API Error: {e}")
                 return False
                 
         return True
     except Exception as e:
         print(f"[ERROR] Gagal upload ke GitHub: {e}")
-        traceback.print_exc()
         return False
 
 def create_chrome_driver():
     options = Options()
-    # Argumen wajib untuk GitHub Actions (Headless Linux)
     options.add_argument('--headless=new')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
-    options.add_argument('--disable-extensions')
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
     
-    # Menggunakan driver otomatis dari setup-chromedriver
-    try:
-        driver = webdriver.Chrome(options=options)
-    except Exception as e:
-        print(f"[ERROR] Gagal membuat Chrome Driver: {e}")
-        raise e
-        
+    # Inisialisasi langsung (kompatibel dengan setup-chromedriver di Actions)
+    driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(60)
     return driver
 
@@ -94,14 +79,13 @@ def jalankan_bot():
         return False
 
     driver = create_chrome_driver()
-    wait = WebDriverWait(driver, 20) # Ubah dari 30 ke 20 untuk mencegah timeout lama
+    wait = WebDriverWait(driver, 20)
 
     try:
         # ===== STEP 1: Login =====
         print("[STEP 1] Login ke SCM Nusadaya...")
         driver.get("https://scm.nusadaya.net/login")
         
-        # Tunggu sampai elemen input benar-benar muncul
         email_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@type='text' or @placeholder='Email atau NIP']")))
         email_input.clear()
         email_input.send_keys(email)
@@ -110,12 +94,9 @@ def jalankan_bot():
         password_input.clear()
         password_input.send_keys(password)
         
-        login_btn = driver.find_element(By.XPATH, "//button[contains(text(), 'Log in')]")
-        login_btn.click()
-        
-        # Tunggu proses login selesai (cek apakah sudah redirect atau ada elemen dashboard)
+        driver.find_element(By.XPATH, "//button[contains(text(), 'Log in')]").click()
         time.sleep(5)
-        print(f"[STEP 1] Login berhasil. URL sekarang: {driver.current_url}")
+        print(f"[STEP 1] Login selesai. URL saat ini: {driver.current_url}")
 
         # ===== STEP 2: Download Data SPK =====
         print("[STEP 2] Proses Download Data SPK...")
@@ -146,7 +127,6 @@ def jalankan_bot():
                     rows.append([cell if cell is not None else "" for cell in row])
                 all_data[sheet_name] = rows
 
-            # Upload hasil ke GitHub
             success = upload_to_github(all_data)
             if success:
                 print("[FINISH] Bot berhasil memperbarui data di TAGIHAN-SPK.")
@@ -155,12 +135,24 @@ def jalankan_bot():
                 return False
         else:
             print(f"[ERROR] Gagal download. Status code: {response_dl.status_code}")
-            print(f"[DEBUG] Response Text: {response_dl.text[:500]}") # Tampilkan sebagian response jika gagal
             return False
 
     except Exception as e:
         print(f"[FATAL ERROR] {e}")
         traceback.print_exc()
         
-        # Simpan screenshot jika error untuk debugging (opsional, sangat membantu)
-        try
+        # Otomatis screenshot jika error untuk memudahkan debugging
+        try:
+            driver.save_screenshot("error_screenshot.png")
+            print("[DEBUG] Screenshot error disimpan sebagai error_screenshot.png")
+        except:
+            pass
+            
+        return False
+    finally:
+        print("[INFO] Menutup browser...")
+        driver.quit()
+
+if __name__ == "__main__":
+    result = jalankan_bot()
+    sys.exit(0 if result else 1)
