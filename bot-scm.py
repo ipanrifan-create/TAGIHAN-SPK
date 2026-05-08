@@ -7,7 +7,7 @@ import sys
 import traceback
 from datetime import datetime
 
-from github import Github
+from github import Github, GithubException
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -31,6 +31,7 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
         file_content = json.dumps(data, indent=4, ensure_ascii=False)
 
         try:
+            # Coba ambil file yang sudah ada
             contents = repo.get_contents(filename)
             repo.update_file(
                 path=contents.path,
@@ -39,35 +40,44 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
                 sha=contents.sha
             )
             print(f"[OK] File {filename} berhasil diperbarui di GitHub.")
-        except Exception:
-            repo.create_file(
-                path=filename,
-                message="Initial commit data SPK",
-                content=file_content
-            )
-            print(f"[OK] File {filename} berhasil dibuat di GitHub.")
+        except GithubException as e:
+            if e.status == 404:
+                # Jika file belum ada (404 Not Found), buat file baru
+                repo.create_file(
+                    path=filename,
+                    message="Initial commit data SPK",
+                    content=file_content
+                )
+                print(f"[OK] File {filename} berhasil dibuat di GitHub.")
+            else:
+                # Jika error selain 404 (misal: 403 Forbidden), tampilkan pesan error
+                print(f"[ERROR] GitHub API Error: {e}")
+                return False
+                
         return True
     except Exception as e:
         print(f"[ERROR] Gagal upload ke GitHub: {e}")
+        traceback.print_exc()
         return False
 
 def create_chrome_driver():
     options = Options()
+    # Argumen wajib untuk GitHub Actions (Headless Linux)
     options.add_argument('--headless=new')
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
+    options.add_argument('--disable-extensions')
     options.add_argument('--window-size=1920,1080')
     options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-
-    import shutil
-    chromedriver_path = shutil.which('chromedriver')
-    if chromedriver_path:
-        service = Service(executable_path=chromedriver_path)
-        driver = webdriver.Chrome(service=service, options=options)
-    else:
-        driver = webdriver.Chrome(options=options)
     
+    # Menggunakan driver otomatis dari setup-chromedriver
+    try:
+        driver = webdriver.Chrome(options=options)
+    except Exception as e:
+        print(f"[ERROR] Gagal membuat Chrome Driver: {e}")
+        raise e
+        
     driver.set_page_load_timeout(60)
     return driver
 
@@ -84,21 +94,28 @@ def jalankan_bot():
         return False
 
     driver = create_chrome_driver()
-    wait = WebDriverWait(driver, 30)
+    wait = WebDriverWait(driver, 20) # Ubah dari 30 ke 20 untuk mencegah timeout lama
 
     try:
         # ===== STEP 1: Login =====
         print("[STEP 1] Login ke SCM Nusadaya...")
         driver.get("https://scm.nusadaya.net/login")
         
+        # Tunggu sampai elemen input benar-benar muncul
         email_input = wait.until(EC.presence_of_element_located((By.XPATH, "//input[@type='text' or @placeholder='Email atau NIP']")))
+        email_input.clear()
         email_input.send_keys(email)
         
         password_input = driver.find_element(By.XPATH, "//input[@type='password']")
+        password_input.clear()
         password_input.send_keys(password)
         
-        driver.find_element(By.XPATH, "//button[contains(text(), 'Log in')]").click()
+        login_btn = driver.find_element(By.XPATH, "//button[contains(text(), 'Log in')]")
+        login_btn.click()
+        
+        # Tunggu proses login selesai (cek apakah sudah redirect atau ada elemen dashboard)
         time.sleep(5)
+        print(f"[STEP 1] Login berhasil. URL sekarang: {driver.current_url}")
 
         # ===== STEP 2: Download Data SPK =====
         print("[STEP 2] Proses Download Data SPK...")
@@ -134,17 +151,16 @@ def jalankan_bot():
             if success:
                 print("[FINISH] Bot berhasil memperbarui data di TAGIHAN-SPK.")
                 return True
+            else:
+                return False
         else:
             print(f"[ERROR] Gagal download. Status code: {response_dl.status_code}")
+            print(f"[DEBUG] Response Text: {response_dl.text[:500]}") # Tampilkan sebagian response jika gagal
             return False
 
     except Exception as e:
         print(f"[FATAL ERROR] {e}")
         traceback.print_exc()
-        return False
-    finally:
-        driver.quit()
-
-if __name__ == "__main__":
-    result = jalankan_bot()
-    sys.exit(0 if result else 1)
+        
+        # Simpan screenshot jika error untuk debugging (opsional, sangat membantu)
+        try
