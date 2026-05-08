@@ -1,0 +1,4 @@
+PyGithub
+selenium
+requests
+openpyxl
