@@ -27,7 +27,6 @@ def upload_to_github(data, filename="data_tagihan_spk.json"):
 
     try:
         g = Github(token)
-        # Menyesuaikan ke repositori tujuan yang baru
         repo = g.get_repo("ipanrifan-create/TAGIHAN-SPK")
         file_content = json.dumps(data, indent=4, ensure_ascii=False)
 
@@ -106,7 +105,6 @@ def jalankan_bot():
         session_cookies = {c['name']: c['value'] for c in driver.get_cookies()}
         
         tahun_sekarang = datetime.now().year
-        # Endpoint sesuai permintaan user
         download_url = f"https://scm.nusadaya.net/surat-perintah-kerja/export?bidang=01&tahun={tahun_sekarang}"
         
         headers = {
