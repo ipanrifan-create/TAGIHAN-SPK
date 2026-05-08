@@ -2,8 +2,8 @@ name: Bot Auto Run SPK
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Jalankan setiap hari jam 06:00 UTC (13:00 WIB)
-  workflow_dispatch:      # Bisa dijalankan manual dari tab Actions
+- cron: '0 * * * *'  # <-- Diubah: Berjalan setiap jam (00:00, 01:00, 02:00, dst)
+  workflow_dispatch:      # Tetap bisa dijalankan manual dari tab Actions
 
 permissions:
   contents: write         # Wajib agar GITHUB_TOKEN bisa push/update file ke repo
