@@ -2075,7 +2075,7 @@
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1062.IP/ROW/KAL2/2026",
-            "639.SPK/ROW-KAL2/2026",
+            "0039.SPK/DAN.01.01/PLNND030000/2026",
             260004894,
             "UP KALIMANTAN 2",
             "AREA PALANGKARAYA",
@@ -2090,8 +2090,8 @@
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1063.IP/ROW/KAL2/2026",
-            "640.SPK/ROW-KAL2/2026",
-            "-",
+            "0042.SPK/DAN.01.01/PLNND030000/2026",
+            260004955,
             "UP KALIMANTAN 2",
             "AREA PALANGKARAYA",
             "TRANSMISI DAN GARDU INDUK",
@@ -2104,8 +2104,23 @@
             139,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
+            "1063.IP/ROW/KAL2/2026",
+            "664.SPK/ROW-KAL2/2026",
+            "-",
+            "UP KALIMANTAN 2",
+            "AREA PALANGKARAYA",
+            "TRANSMISI DAN GARDU INDUK",
+            "PEKERJAAN PELAKSANAAN GROUND PATROL VOLUME BASED DI LINGKUNGAN PT PLN (Persero) UIP3B KALIMANTAN PADA UPT PALANGKARAYA",
+            "ROW",
+            "SURYA PRIMA ELTRINDO, PT",
+            "Rp 140.824.529"
+        ],
+        [
+            140,
+            "SEPTIANA DEWI LESTARI",
+            "9820011ZTY",
             "1064.IP/ROW/KAL2/2026",
-            "641.SPK/ROW-KAL2/2026",
+            "0040.SPK/DAN.01.01/PLNND030000/2026",
             260004895,
             "UP KALIMANTAN 2",
             "AREA PALANGKARAYA",
@@ -2116,11 +2131,11 @@
             "Rp 239.913.555"
         ],
         [
-            140,
+            141,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1065.IP/ROW/KAL2/2026",
-            "642.SPK/ROW-KAL2/2026",
+            "0041.SPK/DAN.01.01/PLNND030000/2026",
             260004896,
             "UP KALIMANTAN 2",
             "AREA PALANGKARAYA",
@@ -2131,7 +2146,7 @@
             "Rp 287.716.462"
         ],
         [
-            141,
+            142,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "125.IP/ALKER/KAL2/2024",
@@ -2146,7 +2161,7 @@
             "Rp 234.093.450"
         ],
         [
-            142,
+            143,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "126.IP/ALKER/KAL2/2024",
@@ -2161,7 +2176,7 @@
             "Rp 179.980.950"
         ],
         [
-            143,
+            144,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "127.IP/ALKER/KAL2/2024",
@@ -2176,7 +2191,7 @@
             "Rp 152.952.450"
         ],
         [
-            144,
+            145,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "304.IP/JASA/KAL2/2025",
@@ -2191,7 +2206,7 @@
             "Rp 274.281.000"
         ],
         [
-            145,
+            146,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "306.IP/JASA/KAL2/2025",
@@ -2206,7 +2221,7 @@
             "Rp 322.921.200"
         ],
         [
-            146,
+            147,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "307.IP/JASA/KAL2/2025",
@@ -2221,7 +2236,7 @@
             "Rp 174.780.600"
         ],
         [
-            147,
+            148,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "308.IP/JASA/KAL2/2025",
@@ -2236,7 +2251,7 @@
             "Rp 216.760.800"
         ],
         [
-            148,
+            149,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "309.IP/JASA/KAL2/2025",
@@ -2251,7 +2266,7 @@
             "Rp 331.801.200"
         ],
         [
-            149,
+            150,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "310.IP/JASA/KAL2/2025",
@@ -2266,7 +2281,7 @@
             "Rp 117.260.400"
         ],
         [
-            150,
+            151,
             "RIF'AN",
             "9016372ZY",
             "091.IP/APD/KAL2/2026",
@@ -2281,7 +2296,7 @@
             "Rp 188.228.250"
         ],
         [
-            151,
+            152,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "289.IP/JASA/KAL2/2026",
@@ -2296,7 +2311,7 @@
             "Rp 270.525.000"
         ],
         [
-            152,
+            153,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "290.IP/JASA/KAL2/2026",
@@ -2311,7 +2326,7 @@
             "Rp 160.655.000"
         ],
         [
-            153,
+            154,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "291.IP/JASA/KAL2/2026",
@@ -2326,7 +2341,7 @@
             "Rp 160.655.000"
         ],
         [
-            154,
+            155,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "292.IP/JASA/KAL2/2026",
@@ -2341,7 +2356,7 @@
             "Rp 104.670.000"
         ],
         [
-            155,
+            156,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "293.IP/JASA/KAL2/2026",
@@ -2356,7 +2371,7 @@
             "Rp 170.330.000"
         ],
         [
-            156,
+            157,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "294.IP/JASA/KAL2/2026",
@@ -2371,7 +2386,7 @@
             "Rp 168.230.000"
         ],
         [
-            157,
+            158,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "295.IP/JASA/KAL2/2026",
