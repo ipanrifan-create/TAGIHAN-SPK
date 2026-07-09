@@ -1247,6 +1247,66 @@
         ],
         [
             82,
+            "RIF'AN",
+            "9016372ZY",
+            "750.IP/MAT/KAL2/2026",
+            "762.SPK/MAT-KAL2/2026",
+            "-",
+            "UP KALIMANTAN 2",
+            "KANTOR REGION KAL2",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Kalimantan Selatan dan Kalimantan Tengah",
+            "MAT",
+            "BAHANA PERSADA SULTENG, PT",
+            "Rp 286.499.325"
+        ],
+        [
+            83,
+            "RIF'AN",
+            "9016372ZY",
+            "712.IP/MAT/KAL2/2026",
+            "0037.SPK/DAN.01.01/PLNND030000/2026",
+            260005399,
+            "UP KALIMANTAN 2",
+            "KANTOR REGION KAL2",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Kalimantan Selatan dan Kalimantan Tengah",
+            "MAT",
+            "BAHANA PERSADA SULTENG, PT",
+            "Rp 278.408.813"
+        ],
+        [
+            84,
+            "RIF'AN",
+            "9016372ZY",
+            "809.IP/MAT/KAL2/2026",
+            "0032.SPK/DAN.01.01/PLNND030000/2026",
+            260005394,
+            "UP KALIMANTAN 2",
+            "KANTOR REGION KAL2",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Kalimantan Selatan dan Kalimantan Tengah",
+            "MAT",
+            "BAHANA PERSADA SULTENG, PT",
+            "Rp 251.193.000"
+        ],
+        [
+            85,
+            "RIF'AN",
+            "9016372ZY",
+            "818.IP/JASA/KAL2/2026",
+            "0033.SPK/DAN.01.01/PLNND030000/2026",
+            260005397,
+            "UP KALIMANTAN 2",
+            "KANTOR REGION KAL2",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Kalimantan Selatan dan Kalimantan Tengah",
+            "JASA",
+            "BAHANA PERSADA SULTENG, PT",
+            "Rp 120.990.000"
+        ],
+        [
+            86,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "614.IP/JASKON/KAL2/2026",
@@ -1261,7 +1321,7 @@
             "Rp 299.797.125"
         ],
         [
-            83,
+            87,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "698.IP/JASA/KAL2/2026",
@@ -1276,7 +1336,7 @@
             "Rp 36.850.000"
         ],
         [
-            84,
+            88,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "699.IP/JASA/KAL2/2026",
@@ -1291,7 +1351,7 @@
             "Rp 54.450.000"
         ],
         [
-            85,
+            89,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "700.IP/JASA/KAL2/2026",
@@ -1306,7 +1366,7 @@
             "Rp 34.100.000"
         ],
         [
-            86,
+            90,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "701.IP/JASA/KAL2/2026",
@@ -1321,7 +1381,7 @@
             "Rp 28.600.000"
         ],
         [
-            87,
+            91,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "702.IP/JASA/KAL2/2026",
@@ -1336,7 +1396,7 @@
             "Rp 49.500.000"
         ],
         [
-            88,
+            92,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "703.IP/JASA/KAL2/2026",
@@ -1351,7 +1411,7 @@
             "Rp 130.350.000"
         ],
         [
-            89,
+            93,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "704.IP/JASA/KAL2/2026",
@@ -1366,7 +1426,7 @@
             "Rp 114.950.000"
         ],
         [
-            90,
+            94,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "705.IP/JASA/KAL2/2026",
@@ -1381,7 +1441,7 @@
             "Rp 102.300.000"
         ],
         [
-            91,
+            95,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "706.IP/JASA/KAL2/2026",
@@ -1396,7 +1456,7 @@
             "Rp 86.350.000"
         ],
         [
-            92,
+            96,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "707.IP/JASA/KAL2/2026",
@@ -1411,7 +1471,7 @@
             "Rp 152.350.000"
         ],
         [
-            93,
+            97,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "839.IP/ALKER/KAL2/2026",
@@ -1426,7 +1486,7 @@
             "Rp 177.600.000"
         ],
         [
-            94,
+            98,
             "SOFYAN HARTOPO",
             "9314014DY",
             "137.IP/APD/KAL2/2025",
@@ -1441,7 +1501,7 @@
             "Rp 216.783.000"
         ],
         [
-            95,
+            99,
             "SOFYAN HARTOPO",
             "9314014DY",
             "138.IP/APD/KAL2/2025",
@@ -1456,7 +1516,7 @@
             "Rp 204.351.000"
         ],
         [
-            96,
+            100,
             "SOFYAN HARTOPO",
             "9314014DY",
             "139.IP/APD/KAL2/2025",
@@ -1471,7 +1531,7 @@
             "Rp 150.738.000"
         ],
         [
-            97,
+            101,
             "SOFYAN HARTOPO",
             "9314014DY",
             "140.IP/APD/KAL2/2025",
@@ -1486,7 +1546,7 @@
             "Rp 249.417.000"
         ],
         [
-            98,
+            102,
             "SOFYAN HARTOPO",
             "9314014DY",
             "141.IP/APD/KAL2/2025",
@@ -1501,7 +1561,7 @@
             "Rp 188.811.000"
         ],
         [
-            99,
+            103,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "148.IP/ALKER/KAL2/2025",
@@ -1516,7 +1576,7 @@
             "Rp 80.325.150"
         ],
         [
-            100,
+            104,
             "SOFYAN HARTOPO",
             "9314014DY",
             "173.IP/APD/KAL2/2025",
@@ -1531,7 +1591,7 @@
             "Rp 175.757.400"
         ],
         [
-            101,
+            105,
             "SOFYAN HARTOPO",
             "9314014DY",
             "174.IP/APD/KAL2/2025",
@@ -1546,7 +1606,7 @@
             "Rp 72.510.750"
         ],
         [
-            102,
+            106,
             "SOFYAN HARTOPO",
             "9314014DY",
             "175.IP/APD/KAL2/2025",
@@ -1561,7 +1621,7 @@
             "Rp 89.610.300"
         ],
         [
-            103,
+            107,
             "SOFYAN HARTOPO",
             "9314014DY",
             "176.IP/APD/KAL2/2025",
@@ -1576,7 +1636,7 @@
             "Rp 73.232.250"
         ],
         [
-            104,
+            108,
             "SOFYAN HARTOPO",
             "9314014DY",
             "177.IP/APD/KAL2/2025",
@@ -1591,7 +1651,7 @@
             "Rp 58.874.400"
         ],
         [
-            105,
+            109,
             "SOFYAN HARTOPO",
             "9314014DY",
             "178.IP/ALKER/KAL2/2025",
@@ -1606,7 +1666,7 @@
             "Rp 90.909.000"
         ],
         [
-            106,
+            110,
             "SOFYAN HARTOPO",
             "9314014DY",
             "179.IP/ALKER/KAL2/2025",
@@ -1621,7 +1681,7 @@
             "Rp 72.261.000"
         ],
         [
-            107,
+            111,
             "SOFYAN HARTOPO",
             "9314014DY",
             "180.IP/ALKER/KAL2/2025",
@@ -1636,7 +1696,7 @@
             "Rp 95.571.000"
         ],
         [
-            108,
+            112,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "181.IP/ALKER/KAL2/2025",
@@ -1651,7 +1711,7 @@
             "Rp 96.237.000"
         ],
         [
-            109,
+            113,
             "SOFYAN HARTOPO",
             "9314014DY",
             "182.IP/ALKER/KAL2/2025",
@@ -1666,7 +1726,7 @@
             "Rp 225.957.150"
         ],
         [
-            110,
+            114,
             "SOFYAN HARTOPO",
             "9314014DY",
             "185.IP/ALKER/KAL2/2025",
@@ -1681,7 +1741,7 @@
             "Rp 99.463.992"
         ],
         [
-            111,
+            115,
             "SOFYAN HARTOPO",
             "9314014DY",
             "186.IP/SARANA KERJA/KAL2/2025",
@@ -1696,7 +1756,7 @@
             "Rp 136.762.989"
         ],
         [
-            112,
+            116,
             "SOFYAN HARTOPO",
             "9314014DY",
             "187.IP/SARANA KERJA/KAL2/2025",
@@ -1711,7 +1771,7 @@
             "Rp 111.896.991"
         ],
         [
-            113,
+            117,
             "SOFYAN HARTOPO",
             "9314014DY",
             "188.IP/SARANA KERJA/KAL2/2025",
@@ -1726,7 +1786,7 @@
             "Rp 163.073.430"
         ],
         [
-            114,
+            118,
             "SOFYAN HARTOPO",
             "9314014DY",
             "189.IP/SARANA KERJA/KAL2/2025",
@@ -1741,7 +1801,7 @@
             "Rp 174.061.986"
         ],
         [
-            115,
+            119,
             "SOFYAN HARTOPO",
             "9314014DY",
             "203.IP/FM/KAL2/2025",
@@ -1756,7 +1816,7 @@
             "Rp 287.045.556"
         ],
         [
-            116,
+            120,
             "SOFYAN HARTOPO",
             "9314014DY",
             "204.IP/FM/KAL2/2025",
@@ -1771,7 +1831,7 @@
             "Rp 237.651.000"
         ],
         [
-            117,
+            121,
             "SOFYAN HARTOPO",
             "9314014DY",
             "205.IP/FM/KAL2/2025",
@@ -1786,7 +1846,7 @@
             "Rp 179.952.456"
         ],
         [
-            118,
+            122,
             "SOFYAN HARTOPO",
             "9314014DY",
             "206.IP/FM/KAL2/2025",
@@ -1801,7 +1861,7 @@
             "Rp 135.975.000"
         ],
         [
-            119,
+            123,
             "SOFYAN HARTOPO",
             "9314014DY",
             "207.IP/FM/KAL2/2025",
@@ -1816,7 +1876,7 @@
             "Rp 234.279.819"
         ],
         [
-            120,
+            124,
             "SOFYAN HARTOPO",
             "9314014DY",
             "208.IP/FM/KAL2/2025",
@@ -1831,7 +1891,7 @@
             "Rp 245.865.000"
         ],
         [
-            121,
+            125,
             "SOFYAN HARTOPO",
             "9314014DY",
             "210.IP/FM/KAL2/2025",
@@ -1846,7 +1906,7 @@
             "Rp 207.054.627"
         ],
         [
-            122,
+            126,
             "SOFYAN HARTOPO",
             "9314014DY",
             "209.IP/FM/KAL2/2025",
@@ -1861,7 +1921,7 @@
             "Rp 161.346.603"
         ],
         [
-            123,
+            127,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "219.IP/APD/KAL2/2025",
@@ -1876,7 +1936,7 @@
             "Rp 157.162.680"
         ],
         [
-            124,
+            128,
             "SOFYAN HARTOPO",
             "9314014DY",
             "220.IP/APD/KAL2/2025",
@@ -1891,7 +1951,7 @@
             "Rp 140.026.500"
         ],
         [
-            125,
+            129,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "244.IP/JASA/KAL2/2025",
@@ -1906,7 +1966,7 @@
             "Rp 272.061.000"
         ],
         [
-            126,
+            130,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "245.IP/JASA/KAL2/2025",
@@ -1921,7 +1981,7 @@
             "Rp 150.360.600"
         ],
         [
-            127,
+            131,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "246.IP/JASA/KAL2/2025",
@@ -1936,7 +1996,7 @@
             "Rp 254.301.000"
         ],
         [
-            128,
+            132,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "248.IP/JASA/KAL2/2025",
@@ -1951,7 +2011,7 @@
             "Rp 300.721.200"
         ],
         [
-            129,
+            133,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "247.IP/JASA/KAL2/2025",
@@ -1966,7 +2026,7 @@
             "Rp 203.440.800"
         ],
         [
-            130,
+            134,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "249.IP/JASA/KAL2/2025",
@@ -1981,7 +2041,7 @@
             "Rp 159.240.600"
         ],
         [
-            131,
+            135,
             "SOFYAN HARTOPO",
             "9314014DY",
             "250.IP/JASKON/KAL2/2025",
@@ -1996,7 +2056,7 @@
             "Rp 214.035.051"
         ],
         [
-            132,
+            136,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "251.IP/JASKON/KAL2/2025",
@@ -2011,7 +2071,7 @@
             "Rp 204.066.123"
         ],
         [
-            133,
+            137,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "252.IP/JASKON/KAL2/2025",
@@ -2026,7 +2086,7 @@
             "Rp 202.220.059"
         ],
         [
-            134,
+            138,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "253.IP/JASKON/KAL2/2025",
@@ -2041,7 +2101,7 @@
             "Rp 207.093.793"
         ],
         [
-            135,
+            139,
             "SOFYAN HARTOPO",
             "9314014DY",
             "254.IP/JASA/KAL2/2025",
@@ -2056,7 +2116,7 @@
             "Rp 119.186.268"
         ],
         [
-            136,
+            140,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "575.IP/MAT/KAL2/2025",
@@ -2071,7 +2131,7 @@
             "Rp 183.885.375"
         ],
         [
-            137,
+            141,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1062.IP/ROW/KAL2/2026",
@@ -2086,7 +2146,7 @@
             "Rp 262.216.409"
         ],
         [
-            138,
+            142,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1063.IP/ROW/KAL2/2026",
@@ -2101,7 +2161,7 @@
             "Rp 140.824.529"
         ],
         [
-            139,
+            143,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1063.IP/ROW/KAL2/2026",
@@ -2116,7 +2176,7 @@
             "Rp 140.824.529"
         ],
         [
-            140,
+            144,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1064.IP/ROW/KAL2/2026",
@@ -2131,7 +2191,7 @@
             "Rp 239.913.555"
         ],
         [
-            141,
+            145,
             "SEPTIANA DEWI LESTARI",
             "9820011ZTY",
             "1065.IP/ROW/KAL2/2026",
@@ -2146,7 +2206,7 @@
             "Rp 287.716.462"
         ],
         [
-            142,
+            146,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "125.IP/ALKER/KAL2/2024",
@@ -2161,7 +2221,7 @@
             "Rp 234.093.450"
         ],
         [
-            143,
+            147,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "126.IP/ALKER/KAL2/2024",
@@ -2176,7 +2236,7 @@
             "Rp 179.980.950"
         ],
         [
-            144,
+            148,
             "R. BAMBANG WIJANARKO",
             "7805025TRK-",
             "127.IP/ALKER/KAL2/2024",
@@ -2191,7 +2251,7 @@
             "Rp 152.952.450"
         ],
         [
-            145,
+            149,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "304.IP/JASA/KAL2/2025",
@@ -2206,7 +2266,7 @@
             "Rp 274.281.000"
         ],
         [
-            146,
+            150,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "306.IP/JASA/KAL2/2025",
@@ -2221,7 +2281,7 @@
             "Rp 322.921.200"
         ],
         [
-            147,
+            151,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "307.IP/JASA/KAL2/2025",
@@ -2236,7 +2296,7 @@
             "Rp 174.780.600"
         ],
         [
-            148,
+            152,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "308.IP/JASA/KAL2/2025",
@@ -2251,7 +2311,7 @@
             "Rp 216.760.800"
         ],
         [
-            149,
+            153,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "309.IP/JASA/KAL2/2025",
@@ -2266,7 +2326,7 @@
             "Rp 331.801.200"
         ],
         [
-            150,
+            154,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "310.IP/JASA/KAL2/2025",
@@ -2281,7 +2341,7 @@
             "Rp 117.260.400"
         ],
         [
-            151,
+            155,
             "RIF'AN",
             "9016372ZY",
             "091.IP/APD/KAL2/2026",
@@ -2296,7 +2356,7 @@
             "Rp 188.228.250"
         ],
         [
-            152,
+            156,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "289.IP/JASA/KAL2/2026",
@@ -2311,7 +2371,7 @@
             "Rp 270.525.000"
         ],
         [
-            153,
+            157,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "290.IP/JASA/KAL2/2026",
@@ -2326,7 +2386,7 @@
             "Rp 160.655.000"
         ],
         [
-            154,
+            158,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "291.IP/JASA/KAL2/2026",
@@ -2341,7 +2401,7 @@
             "Rp 160.655.000"
         ],
         [
-            155,
+            159,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "292.IP/JASA/KAL2/2026",
@@ -2356,7 +2416,7 @@
             "Rp 104.670.000"
         ],
         [
-            156,
+            160,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "293.IP/JASA/KAL2/2026",
@@ -2371,7 +2431,7 @@
             "Rp 170.330.000"
         ],
         [
-            157,
+            161,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "294.IP/JASA/KAL2/2026",
@@ -2386,7 +2446,7 @@
             "Rp 168.230.000"
         ],
         [
-            158,
+            162,
             "SOERYO EKO PRASETYO",
             "8407020D",
             "295.IP/JASA/KAL2/2026",
