@@ -9186,7 +9186,7 @@
             "9212023R2Y",
             "1220.IP/MAT/RKPR/2026",
             "750.SPK/MAT-RKPR/2026",
-            "-",
+            260006675,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 2",
             "PEMBANGKITAN",
@@ -13484,6 +13484,21 @@
             "MAT",
             "PANCA BINA PERSADA, PT",
             "Rp 204.377.640"
+        ],
+        [
+            898,
+            "RAHMAT ARDI NUGRAHA",
+            "9318139ZY",
+            "1547.IP/JASA/KAL1/2026",
+            "1075.SPK/JASA-KAL1/2026",
+            "-",
+            "UP KALIMANTAN 1",
+            "KANTOR REGION KAL1",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Kalimantan Barat",
+            "JASA",
+            "SINERGI DAYA PRISMACO, PT",
+            "Rp 297.480.000"
         ]
     ]
 }
