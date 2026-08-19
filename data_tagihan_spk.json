@@ -13430,8 +13430,8 @@
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "1704.IP/JASA/SUL1/2026",
-            "1071.SPK/JASA-SUL1/2026",
-            "-",
+            "435.SPK/KIT/PLNND-UPSUL1/2026",
+            260006671,
             "UP SULAWESI 1",
             "KANTOR REGION SUL1",
             "PEMBANGKITAN",
@@ -13439,6 +13439,51 @@
             "JASA",
             "TRIPELA ISPRIMA SALVUS, PT",
             "Rp 191.135.063"
+        ],
+        [
+            895,
+            "R. AHMAD SYAFIQ HAMDANA",
+            "9318942ZY",
+            "1251.IP/JASA/SUL1/2026",
+            "436.SPK/KIT/PLNND-UPSUL1/2026",
+            260006672,
+            "UP SULAWESI 1",
+            "KANTOR REGION SUL1",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Sulawesi Utara, Sulawesi Tengah dan Gorontalo",
+            "JASA",
+            "TRIPELA ISPRIMA SALVUS, PT",
+            "Rp 191.135.063"
+        ],
+        [
+            896,
+            "R. AHMAD SYAFIQ HAMDANA",
+            "9318942ZY",
+            "1595.IP/JASA/SUL1/2026",
+            "413.SPK/KIT/PLNND-UPSUL1/2026",
+            260006673,
+            "UP SULAWESI 1",
+            "KANTOR REGION SUL1",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Sulawesi Utara, Sulawesi Tengah dan Gorontalo",
+            "JASA",
+            "INTERTEK LANGGENG MAKMUR, PT",
+            "Rp 27.750.000"
+        ],
+        [
+            897,
+            "R. AHMAD SYAFIQ HAMDANA",
+            "9318942ZY",
+            "1238.IP/MAT/SUL1/2026",
+            "380.SPK/KIT/PLNND-UPSUL1/2026",
+            260006674,
+            "UP SULAWESI 1",
+            "KANTOR REGION SUL1",
+            "PEMBANGKITAN",
+            "Pengelolaan Aset atau Asset Management Contract (AMC) PLTD Holding di UID Sulawesi Utara, Sulawesi Tengah dan Gorontalo",
+            "MAT",
+            "PANCA BINA PERSADA, PT",
+            "Rp 204.377.640"
         ]
     ]
 }
