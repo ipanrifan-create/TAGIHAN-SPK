@@ -7671,7 +7671,7 @@
             "9212023R2Y",
             "922.IP/MAT/RKPR/2026",
             "615.SPK/MAT-RKPR/2026",
-            "-",
+            260007025,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 2",
             "PEMBANGKITAN",
@@ -8151,7 +8151,7 @@
             "9212023R2Y",
             "1175.IP/MAT/RKPR/2026",
             "658.SPK/MAT-RKPR/2026",
-            "-",
+            260007024,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 2",
             "PEMBANGKITAN",
@@ -9261,7 +9261,7 @@
             "9212023R2Y",
             "1219.IP/MAT/RKPR/2026",
             "755.SPK/MAT-RKPR/2026",
-            "-",
+            260007026,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 2",
             "PEMBANGKITAN",
@@ -14429,6 +14429,21 @@
             "JASA",
             "KRISTA INTI PERSADA PT",
             "Rp 210.206.250"
+        ],
+        [
+            961,
+            "JETRO GUNAWAN SIMBOLON",
+            "9212023R2Y",
+            "838.IP/MAT/RKPR/2026",
+            "0008/SPBJ/MUPRKR-PLNND/VI/2026",
+            260007022,
+            "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
+            "UL Pembangkit Tersebar Riau 4",
+            "PEMBANGKITAN",
+            "ASSET MANAGEMENT CONTRACT (AMC) PLTD HOLDING DI UID RIAU DAN KEPULAUAN RIAU",
+            "MAT",
+            "SAMUDRA JAYA RURIKA MANDIRI, PT",
+            "Rp 98.956.278"
         ]
     ]
 }
