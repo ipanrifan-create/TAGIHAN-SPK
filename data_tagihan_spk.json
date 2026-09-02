@@ -9276,7 +9276,7 @@
             "9212023R2Y",
             "1243.IP/MAT/RKPR/2026",
             "756.SPK/MAT-RKPR/2026",
-            "-",
+            260007194,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 1",
             "PEMBANGKITAN",
@@ -9306,7 +9306,7 @@
             "9212023R2Y",
             "1250.IP/JASA/RKPR/2026",
             "758.SPK/MAT-RKPR/2026",
-            "-",
+            260007193,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 1",
             "PEMBANGKITAN",
@@ -14706,7 +14706,7 @@
             "9212023R2Y",
             "1987.IP/MAT/RKPR/2026",
             "0033/SPBJ/MUPRKR-PLND/VIII/2026",
-            "-",
+            260007195,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 4",
             "PEMBANGKITAN",
@@ -14721,7 +14721,7 @@
             "9212023R2Y",
             "1785.IP/MAT/RKPR/2026",
             "0035/SPBJ/MUPRKR-PLNND/VIII/2026",
-            "-",
+            260007196,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 4",
             "PEMBANGKITAN",
@@ -14736,7 +14736,7 @@
             "9212023R2Y",
             "1787.IP/MATERIAL & JASA/RKPR/2026",
             "0032/SPBJ/MUPRKR-PLNND/VIII/2026",
-            "-",
+            260007189,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 4",
             "PEMBANGKITAN",
@@ -14751,7 +14751,7 @@
             "9212023R2Y",
             "1989.IP/JASA/RKPR/2026",
             "0034/SPBJ/MUPRKR-PLNND/VIII/2026",
-            "-",
+            260007190,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 4",
             "PEMBANGKITAN",
@@ -14766,7 +14766,7 @@
             "9212023R2Y",
             "837.IP/MAT/RKPR/2026",
             "0004/SPBJ/MUPRKR-PLNND/VI/2026",
-            "-",
+            260007191,
             "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
             "UL Pembangkit Tersebar Riau 1",
             "PEMBANGKITAN",
@@ -14792,21 +14792,6 @@
         ],
         [
             985,
-            "JETRO GUNAWAN SIMBOLON",
-            "9212023R2Y",
-            "1772.IP/MAT/RKPR/2026",
-            "0029/SPBJ/MUPRKR-PLNND/VIII/2026",
-            "-",
-            "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
-            "UL Pembangkit Tersebar Riau 3",
-            "PEMBANGKITAN",
-            "ASSET MANAGEMENT CONTRACT (AMC) PLTD HOLDING DI UID RIAU DAN KEPULAUAN RIAU",
-            "MAT",
-            "SAMUDRA JAYA RURIKA MANDIRI, PT",
-            "Rp 95.604.300"
-        ],
-        [
-            986,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2130.IP/MAT/SUL1/2026",
@@ -14821,7 +14806,7 @@
             "Rp 299.727.750"
         ],
         [
-            987,
+            986,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2038.IP/MATERIAL & JASA/SUL1/2026",
@@ -14836,7 +14821,7 @@
             "Rp 185.332.149"
         ],
         [
-            988,
+            987,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2037.IP/MATERIAL & JASA/SUL1/2026",
@@ -14851,7 +14836,7 @@
             "Rp 154.467.711"
         ],
         [
-            989,
+            988,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2036.IP/JASA/SUL1/2026",
@@ -14866,7 +14851,7 @@
             "Rp 155.400.000"
         ],
         [
-            990,
+            989,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "1703.IP/JASA/SUL1/2026",
@@ -14881,7 +14866,7 @@
             "Rp 204.462.000"
         ],
         [
-            991,
+            990,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2054.IP/MAT/SUL1/2026",
@@ -14896,7 +14881,7 @@
             "Rp 299.680.575"
         ],
         [
-            992,
+            991,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2053.IP/MAT/SUL1/2026",
@@ -14911,7 +14896,7 @@
             "Rp 299.680.575"
         ],
         [
-            993,
+            992,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2027.IP/MAT/SUL1/2026",
@@ -14926,7 +14911,7 @@
             "Rp 60.836.436"
         ],
         [
-            994,
+            993,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2029.IP/MAT/SUL1/2026",
@@ -14941,7 +14926,7 @@
             "Rp 270.915.702"
         ],
         [
-            995,
+            994,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2025.IP/MAT/SUL1/2026",
@@ -14956,7 +14941,7 @@
             "Rp 292.187.631"
         ],
         [
-            996,
+            995,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2057.IP/JASA/SUL1/2026",
@@ -14971,7 +14956,7 @@
             "Rp 103.109.565"
         ],
         [
-            997,
+            996,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2056.IP/JASA/SUL1/2026",
@@ -14986,7 +14971,7 @@
             "Rp 125.108.100"
         ],
         [
-            998,
+            997,
             "R. AHMAD SYAFIQ HAMDANA",
             "9318942ZY",
             "2055.IP/JASA/SUL1/2026",
@@ -14999,6 +14984,21 @@
             "JASA",
             "SAPTA MANUNGGAL KARYA, PT",
             "Rp 295.382.100"
+        ],
+        [
+            998,
+            "JETRO GUNAWAN SIMBOLON",
+            "9212023R2Y",
+            "1772.IP/MAT/RKPR/2026",
+            "0029/SPBJ/MUPRKR-PLNND/VIII/2026",
+            260007201,
+            "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
+            "UL Pembangkit Tersebar Riau 3",
+            "PEMBANGKITAN",
+            "ASSET MANAGEMENT CONTRACT (AMC) PLTD HOLDING DI UID RIAU DAN KEPULAUAN RIAU",
+            "MAT",
+            "SAMUDRA JAYA RURIKA MANDIRI, PT",
+            "Rp 95.604.300"
         ]
     ]
 }
