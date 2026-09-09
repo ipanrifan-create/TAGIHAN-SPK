@@ -13146,14 +13146,14 @@
             "9318139ZY",
             "1628.IP/MAT/KAL1/2026",
             "1052.SPK/MAT-KAL1/2026",
-            "-",
+            260007436,
             "UP KALIMANTAN 1",
             "KANTOR REGION KAL1",
             "PEMBANGKITAN",
             "SEWA PLTD KOTA BARU",
             "MAT",
             "ALTRAK 1978, PT",
-            "Rp 127.938.600"
+            "Rp 126.659.214"
         ],
         [
             876,
@@ -15599,6 +15599,21 @@
             "MAT",
             "SAMUDRA JAYA RURIKA MANDIRI, PT",
             "Rp 62.160.000"
+        ],
+        [
+            1039,
+            "JETRO GUNAWAN SIMBOLON",
+            "9212023R2Y",
+            "1607.IP/MAT/RKPR/2026",
+            "1233.SPK/MAT-RKPR/2026",
+            "-",
+            "UP PEMBANGKIT RIAU DAN KEPULAUAN RIAU",
+            "UL Pembangkit Tersebar Riau 3",
+            "PEMBANGKITAN",
+            "ASSET MANAGEMENT CONTRACT (AMC) PLTD HOLDING DI UID RIAU DAN KEPULAUAN RIAU",
+            "MAT",
+            "SAMUDRA JAYA RURIKA MANDIRI, PT",
+            "Rp 266.260.806"
         ]
     ]
 }
